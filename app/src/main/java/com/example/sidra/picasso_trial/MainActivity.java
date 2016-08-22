@@ -22,6 +22,8 @@ public class MainActivity extends AppCompatActivity {
 
        Picasso.with(this)
                 .load("https://upload.wikimedia.org/wikipedia/commons/d/d5/Mona_Lisa_(copy,_Hermitage).jpg")
+                //.placeholder(R.drawable.image_name_default) //have to put images inside studio for use
+                //.error(R.drawable.image_name_error)
                 .into(imageView);
 
     }
